@@ -9,7 +9,7 @@ SQL Server (express): https://www.microsoft.com/sql-server/sql-server-downloads
 Microsoft .NET SDK 6.0: https://dotnet.microsoft.com/download/dotnet/6.0
 <br />
 <br />
-Instructions before clone repository:
+Instructions after clone repository:
 <br />
 1 - Open WebApplicationAPI on VSCode and run:
 <br />
