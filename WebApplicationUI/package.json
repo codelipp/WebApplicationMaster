@@ -1,0 +1,23 @@
+{
+  "name": "webapplicationui",
+  "version": "1.0.0",
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.",
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo Flores",
+  "license": "ISC",
+  "dependencies": {
+    "@angular-devkit/build-angular": "^16.2.8",
+    "@angular/core": "^16.2.11",
+    "@angular/material": "^16.2.10",
+    "@angular/platform-browser-dynamic": "^16.2.11",
+    "@angular/router": "^16.2.11",
+    "@material/button": "^14.0.0",
+    "@ng-bootstrap/ng-bootstrap": "^15.1.2",
+    "bootstrap": "^3.4.1",
+    "material-icons": "^1.13.12",
+    "react-bootstrap": "^2.9.1"
+  }
+}

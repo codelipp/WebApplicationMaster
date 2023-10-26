@@ -1,0 +1,16 @@
+<div class="text-left">
+    <input type="file" id="fileUploaded" style="display: none;" (change)="uploadImage($event)" accept="image/*">
+    <input type="button" class="btn btn-warning" value="upload"
+        onclick="document.getElementById('fileUploaded').click()">
+
+    <div class="row">
+        <div class="col-md-6" *ngFor="let tshirtImage of tshirtImages">
+            <div class="card mb-4 box-shadow" style="max-width: 200px; height: auto;">
+                <img [src]="url + tshirtImage.id" class="card-img-top">
+                <a (click)="deleteImage(tshirtImage.id)" class="delete-icon">
+                    delete
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

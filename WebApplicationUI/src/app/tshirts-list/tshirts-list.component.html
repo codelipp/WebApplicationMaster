@@ -1,0 +1,32 @@
+<br>
+<div class="container">
+    <div class="row text-center">
+        <div class="form-group col-md-12">
+            <label class="form-label">LIST OF T-SHIRTS</label>
+        </div>
+    </div>
+    <div class="table-response">
+        <table class="table table-hover">
+            <thead class="thead-dark">
+                <tr class="text-center">
+                    <th scope="col">Code</th>
+                    <th scope="col">Model Name</th>
+                    <th scope="col">Num Colors</th>
+                    <th scope="col">Num Fabrics</th>
+                    <th scope="col">Num Images</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody *ngIf="tshirts.length > 0">
+                <tr *ngFor="let tshirt of tshirts" class="text-center">
+                    <td>{{tshirt.code}}</td>
+                    <td>{{tshirt.modelName}}</td>
+                    <td>{{tshirt.colorsNumber}}</td>
+                    <td>{{tshirt.fabricsNumber}}</td>
+                    <td>{{tshirt.tshirtImagesNumber}}</td>
+                    <td><button mat-raised-button color="primary" (click)="details(tshirt)">details</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

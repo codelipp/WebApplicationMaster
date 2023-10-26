@@ -1,0 +1,13 @@
+span {
+    font-weight: bold;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #272424;
+}
